@@ -33,7 +33,12 @@ for(let fruit in Fruits)
 
 //* Bài 3*//
 let myDog = {
-    name: "Husky",
+    name: "Ngáo",
     leg: 4,
-    color: "Brown"
+    friend: ["everything!"]
 };
+
+myDog.name = "Husky";
+myDog.color = "Brown";
+delete myDog.friend;
+console.log("I have a dog. His name is",myDog.name,".He has",myDog.color,"fur and",myDog.leg,"legs.","His friend is",myDog.friend);
